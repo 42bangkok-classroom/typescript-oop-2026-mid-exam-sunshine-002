@@ -19,4 +19,3 @@ export function shortenComment(comment: string): string {
 }
 
 
-console.log(shortenComment(comment))
