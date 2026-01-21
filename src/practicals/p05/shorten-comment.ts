@@ -13,7 +13,6 @@ export function shortenComment(comment: string): string {
       if( i !== keep.length - 1 ) {
         temp += " "
       }
-    
     } else {
       return ""
     } 
