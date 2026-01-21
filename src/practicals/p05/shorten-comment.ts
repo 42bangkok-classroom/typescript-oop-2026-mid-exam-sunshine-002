@@ -14,7 +14,7 @@ export function shortenComment(comment: string): string {
         temp += " "
       }
     } else {
-      temp += ""
+      return ""
     }
   }
   return temp
