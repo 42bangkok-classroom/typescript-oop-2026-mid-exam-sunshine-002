@@ -5,11 +5,14 @@ if(isNaN(p4) && p4 <= 0 ) {
 }
 
 for(let i = 0; i < p4; i ++) {
-    for(let j = 0; j < 2 * (p4 - i) - 2; j ++) {
+
+    for(let m = 0; m < 2* (p4 - i) - 2; m++) {
         console.log(" ")
     }
-    for(let m = 0; m < p4; m++) {
-        console.log(m + 1)
+    for(let n = 0; n < p4; n ++) {
+        console.log(n+1)
+        
     }
     
+
 }

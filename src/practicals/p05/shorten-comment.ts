@@ -6,7 +6,10 @@ export function shortenComment(comment: string): string {
 
   for(let i = 0;i < keep.length; i ++) {
     if(keep[i].length>= 5 && keep[i].length <= 10) {
-      temp += (keep[i] + " ")
+      temp += keep[i] 
+      if( i !== keep.length - 1 ) {
+        temp += " "
+      }
     } else {
       temp += ""
     }
@@ -15,3 +18,5 @@ export function shortenComment(comment: string): string {
   
 }
 
+
+console.log(shortenComment(comment))
