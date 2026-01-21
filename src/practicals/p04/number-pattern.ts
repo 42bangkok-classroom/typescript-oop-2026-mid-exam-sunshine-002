@@ -4,10 +4,12 @@ if(isNaN(p4) && p4 <= 0 ) {
     process.exit()
 }
 
-for(let i = 0; i < p4; i ++ ){
-    let line = ""
-    //console.log(" ".repeat(p4-i) + p4)
-    for(let j = p4; j = p4; j--) {
-        console.log(" ".repeat(p4-i) + p4)
+for(let i = 0; i < p4; i ++) {
+    for(let j = 0; j < 2 * (p4 - i) - 2; j ++) {
+        console.log(" ")
     }
- }
+    for(let m = 0; m < p4; m++) {
+        console.log(m + 1)
+    }
+    
+}
