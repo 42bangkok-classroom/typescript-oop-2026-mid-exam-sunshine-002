@@ -1,12 +1,8 @@
 // Write your code below
 
 let u = Number(process.argv[2])
-if(isNaN(u)) {
-    console.log("Invalid input")
-    process.exit()
-}
 
-if(u < 0 || u > 100) {
+if(isNaN(u) ||u < 0 || u > 100) {
     console.log("Invalid input");
 } else if (u >= 80) {
     console.log("Grade is A")
